@@ -12,7 +12,7 @@ apt-get install -y python3 python3-pip python3-venv git nginx
 
 # Клонирование репозитория (если запускается не через git)
 if [ ! -d "/opt/web-server-auto" ]; then
-  git clone https://github.com/ваш-репозиторий.git /opt/web-server-auto
+  git clone https://github.com/web-server-auto.git /opt/web-server-auto
 fi
 
 # Создание виртуального окружения
